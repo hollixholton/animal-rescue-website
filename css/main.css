@@ -1,0 +1,82 @@
+html {
+  font-family: "Merriweather", serif;
+  text-decoration: none;
+}
+
+
+.title {
+  padding-top: 10px;
+  padding-right: 10px;
+  color: #fff;
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+.center {
+  margin: 0 auto;
+  display: block;
+}
+
+header {
+  background-color: #75AA9C;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul {
+  color: #fff;
+}
+.cards {
+  background-color: #ECC7B5;
+  border-style: solid;
+  border-color: #fff;
+  border-width: 10px;
+}
+
+footer {
+  background-color: #75AA9C;
+}
+
+.sans {
+  font-family: "Merriweather Sans", sans-serif;
+}
+nav li:hover {
+  background-color: #1D4F44;
+  color: #fff;
+}
+
+.current {
+  background-color: #ECC7B5;
+  color: black;
+}
+
+.btn {
+  border-color: #1D4F44;
+  background-color: #1D4F44;
+}
+
+.btn:hover {
+  border-color: #75AA9C;
+  background-color: #75AA9C;
+}
+
+.cards:hover {
+  background-color: #75AA9C;
+  border-style: solid;
+  border-color: #fff;
+  border-width: 10px;
+}
+
+h2 {
+  color: #1D4F44;
+}
+
+.bg-fill {
+  background-color: #ECC7B5;
+}
+
+h4 {
+  color: #1D4F44;
+}
