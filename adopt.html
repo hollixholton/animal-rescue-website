@@ -9,6 +9,8 @@
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="favicon-196.png">
 </head>
 <body>
   <main>
@@ -34,16 +36,16 @@
         </div>
           <form action="https://formspree.io/hollixholton@gmail.com" method="POST" class="max-length gutter-2 pad-t pad-b push-2">
             <div class="push">
-              <label class="colorsans" for="name">First name</label>
+              <label class="colorsans">First name</label>
               <input id="firstname" name="first-name">
             </div>
             <div class="push">
-              <label class="colorsans" for="name">Last name</label>
+              <label class="colorsans">Last name</label>
               <input id="lastname" name="last-name">
             </div>
             <div class="push">
               <label class="colorsans" for="email">Email</label>
-              <input id="email" type="email" placeholder="me@me.ca">
+              <input type="email" name="_replyto" id="email"  placeholder="me@me.ca">
             </div>
             <div class="push">
               <label class="colorsans" for="required">Adoption Type</label>
@@ -81,7 +83,7 @@
               </div>
                 <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2">
                 <label class="colorsans" for="month">Month</label>
-                <select id="month"name="month">
+                <select id="month" name="month">
                   <option>January</option>
                   <option>February</option>
                   <option>March</option>
@@ -112,7 +114,7 @@
               </div>
             <div class="push">
               <h2>
-                <button type="submit" class="btn giga center btn-ghost">Submit</button>
+                <input type="submit" value="send" class="btn giga center btn-ghost"><button>Submit</button>
               </h2>
             </div>
           </form>
