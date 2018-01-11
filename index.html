@@ -13,9 +13,15 @@
   <link rel="apple-touch-icon" href="favicon-196.png">
 </head>
 <body>
-  <main>
-    <header>
-      <nav class="relative">
+
+  <ul class="skip-links">
+    <li><a href="#nav">Skip to Navigation</a></li>
+    <li><a href="#main">Skip to Main</a></li>
+  </ul>
+
+  <main role="main" id="main">
+    <header role="banner">
+      <nav role="navigation" id="nav" class="relative">
         <h1 class="sans yotta push-1-4 island">Cedar Row Farm Sanctuary</h1>
         <ul class="nav-links list-group-inline push-none grid">
           <li class="micro text-center unit xs-1-4 s-1-4 m-1-4 l-1-4 xl-1-4 current island-1-4"><a href="index.html">Home</a></li>
@@ -27,8 +33,8 @@
     </header>
 
     <section class="push">
-      <div class="relative">
-        <img class="img-flex" src="images/cows-landscape-banner.jpg" alt="cows banner">
+      <div class="relative embed embed-16by9">
+        <img class="img-flex embed-item" src="images/cows-landscape-banner.jpg" alt="cows banner">
 
         <div class="absolute pin-center">
           <h2 class="text-center giga push-none sans">Finding a true home</h2>
@@ -84,8 +90,7 @@
       <h3 class="sans text-center gutter pad-t push-1-4">The Latest From Our Blog</h3>
       <div>
         <h4 class="sans text-center gutter">Marni's Ride</h4>
-        <p class="card gutter micro"><small>July 16, 2017</small><br><br>
-        On August 5th, Marni Ugar will be cycling 200 kms (route: https://www.strava.com/routes/9045029) to raise money for Cedar Row Farm Sanctuary. Through her activism she has learned that sadly billions of animals in the animal agriculture industry are mistreated annually. While Cedar Row can’t take them all in, we have rescued thousands of animals providing them with a safe […]<br><br>
+        <p class="card gutter micro"><small>July 16, 2017</small><br><br>On August 5th, Marni Ugar will be cycling 200 kms (route: https://www.strava.com/routes/9045029) to raise money for Cedar Row Farm Sanctuary. Through her activism she has learned that sadly billions of animals in the animal agriculture industry are mistreated annually. While Cedar Row can’t take them all in, we have rescued thousands of animals providing them with a safe […]<br><br>
           <small><a href="#">Read More</a></small></p>
       </div>
     </section>
@@ -99,7 +104,7 @@
             <li class="milli island-1-4"><a href="rescues.html">Our family</a></li>
             <li class="milli island-1-4"><a href="#">Contact</a></li>
           </ul>
-          <p class="micro push-0">©2018 CEDAR ROW FARM SANCTUARY</p>
+          <p role="contentinfo" class="micro push-0">©2018 CEDAR ROW FARM SANCTUARY</p>
         </div>
       </nav>
     </footer>
