@@ -22,6 +22,11 @@ header {
   background-color: #75aa9c;
 }
 
+p a {
+  color: #000;
+  text-decoration: underline;
+}
+
 a {
   text-decoration: none;
   color: #fff;
@@ -40,6 +45,10 @@ ul {
 
 footer {
   background-color: #1d4f44;
+}
+
+.black {
+  color: #000;
 }
 
 .sans {
@@ -80,13 +89,15 @@ nav a:hover {
 }
 
 .btn {
-  border-color: #1d4f44;
-  background-color: #1d4f44;
+  border-color: #ecc7b5;
+  background-color: #ecc7b5;
+  color: #000;
 }
 
 .btn:hover {
   border-color: #75aa9c;
   background-color: #75aa9c;
+  color: #000;
 }
 
 .cards:hover {
@@ -114,9 +125,13 @@ h4 {
 }
 
 .white {
-  color: #000;
+  color: #fff;
 }
 
 .btn-ghost {
+  color: #000;
+}
+
+p {
   color: #000;
 }
