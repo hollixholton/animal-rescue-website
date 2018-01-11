@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Cedar Row | Farm Sanctuary</title>
+  <title>Cedar Row | Adopt</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans" rel="stylesheet">
   <link href="css/modules.css" rel="stylesheet">
@@ -34,11 +34,11 @@
         </div>
           <form action="https://formspree.io/hollixholton@gmail.com" method="POST" class="max-length gutter-2 pad-t pad-b push-2">
             <div class="push">
-              <label class="colorsans" for="first-name">First name</label>
+              <label class="colorsans" for="name">First name</label>
               <input id="firstname" name="first-name">
             </div>
             <div class="push">
-              <label class="colorsans" for="last-name">Last name</label>
+              <label class="colorsans" for="name">Last name</label>
               <input id="lastname" name="last-name">
             </div>
             <div class="push">
@@ -46,8 +46,8 @@
               <input id="email" type="email" placeholder="me@me.ca">
             </div>
             <div class="push">
-              <label class="colorsans" for="type">Adoption Type</label>
-              <select id="type">
+              <label class="colorsans" for="required">Adoption Type</label>
+              <select id="required">
                 <option>Monthly Donation – $10</option>
                 <option>Sponsor a Turkey – $35</option>
                 <option>Sponsor a Cow – $80</option>
@@ -69,20 +69,19 @@
             </div>
             <div class="push">
               <label class="colorsans" for="credit">Card Number</label>
-              <input id="credit" type="credit" placeholder="ex. 8908 1209 1238 9282">
+              <input id="credit" type="text">
             </div>
             <div class="push">
               <label class="colorsans" for="security">Security Code</label>
-              <input id="security" type="security" placeholder="3 digits on the back of your card">
+              <input id="security" type="text">
             </div>
             <div class="grid push">
               <div class="unit xs-1 s-1 m-1 l-1 xl-1">
-                <legend class="push-1-4 block colorsans">Expiry Date</legend>
+                <h4 class="push-1-4 block colorsans">Expiry Date</h4>
               </div>
                 <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2">
                 <label class="colorsans" for="month">Month</label>
-                <select id="month"
-                      name="month" />
+                <select id="month"name="month">
                   <option>January</option>
                   <option>February</option>
                   <option>March</option>
@@ -99,8 +98,7 @@
               </div>
               <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2">
                 <label class="colorsans" for="year_start">Year</label>
-                  <select id="year_start"
-                         name="year_start" />
+                  <select id="year_start" name="year_start">
                     <option>2018</option>
                     <option>2019</option>
                     <option>2020</option>
@@ -114,10 +112,11 @@
               </div>
             <div class="push">
               <h2>
-                <button type="submit" class="btn giga center">Submit</button>
+                <button type="submit" class="btn giga center btn-ghost">Submit</button>
               </h2>
             </div>
           </form>
+        </section>
           <footer class="pad-t-2">
             <nav>
               <div class="pad-t">

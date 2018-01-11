@@ -1,8 +1,7 @@
 html {
-  font-family: "Merriweather", serif;
+  font-family: Merriweather, serif;
   text-decoration: none;
 }
-
 
 .title {
   padding-top: 10px;
@@ -12,12 +11,11 @@ html {
 }
 
 .center {
-  margin: 0 auto;
   display: block;
 }
 
 header {
-  background-color: #75AA9C;
+  background-color: #75aa9c;
 }
 
 a {
@@ -28,60 +26,67 @@ a {
 ul {
   color: #fff;
 }
+
 .cards {
-  background-color: #ECC7B5;
+  background-color: #ecc7b5;
   border-style: solid;
   border-color: #fff;
   border-width: 10px;
 }
 
 footer {
-  background-color: #75AA9C;
+  background-color: #75aa9c;
 }
 
 .sans {
   font-family: "Merriweather Sans", sans-serif;
 }
+
 nav li:hover {
-  background-color: #1D4F44;
+  background-color: #1d4f44;
+  color: #fff;
+}
+
+nav a:hover {
+  background-color: #1d4f44;
   color: #fff;
 }
 
 .current {
-  background-color: #ECC7B5;
+  background-color: #ecc7b5;
   color: black;
 }
 
 .btn {
-  border-color: #1D4F44;
-  background-color: #1D4F44;
+  border-color: #1d4f44;
+  background-color: #1d4f44;
 }
 
 .btn:hover {
-  border-color: #75AA9C;
-  background-color: #75AA9C;
+  border-color: #75aa9c;
+  background-color: #75aa9c;
 }
 
 .cards:hover {
-  background-color: #75AA9C;
+  background-color: #75aa9c;
   border-style: solid;
   border-color: #fff;
   border-width: 10px;
 }
 
 h2 {
-  color: #1D4F44;
+  color: #1d4f44;
 }
 
 .bg-fill {
-  background-color: #ECC7B5;
+  background-color: #ecc7b5;
 }
 
 h4 {
-  color: #1D4F44;
+  color: #1d4f44;
 }
 
 .colorsans {
   font-family: "Merriweather Sans", sans-serif;
-  color: #1D4F44;
+  color: #1d4f44;
 }
