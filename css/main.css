@@ -79,6 +79,10 @@ nav a:hover {
   color: #fff;
 }
 
+nav a {
+  display: block;
+}
+
 .skip-links a:focus {
   top: 0;
 }
